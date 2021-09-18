@@ -30,9 +30,10 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 0,       0,           -1 },
+	/* class                instance      title       tags mask     isfloating   monitor */
+	{ "Gimp",                 NULL,       NULL,       0,            1,           -1 },
+	{ "Firefox",              NULL,       NULL,       1 << 0,       0,           -1 },
+	{ "qemu-system-x86_64",   NULL,       NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
