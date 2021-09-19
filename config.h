@@ -35,6 +35,7 @@ static const Rule rules[] = {
 	{ "Firefox",              NULL,       NULL,       1 << 0,       0,           -1 },
 	{ "Qemu",                 NULL,       NULL,       0,            1,           -1 },
 	{ "Pavucontrol",          NULL,       NULL,       0,            1,           -1 },
+	{ "Geeqie",               NULL,       NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
