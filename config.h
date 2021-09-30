@@ -36,6 +36,8 @@ static const Rule rules[] = {
 	{ "Qemu",                 NULL,       NULL,       0,            1,           -1 },
 	{ "Pavucontrol",          NULL,       NULL,       0,            1,           -1 },
 	{ "Geeqie",               NULL,       NULL,       0,            1,           -1 },
+	{ "mpv",                   NULL,       NULL,       0,            1,           -1 },
+
 };
 
 /* layout(s) */
